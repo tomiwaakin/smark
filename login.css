@@ -1,0 +1,50 @@
+*{
+    margin: 00;
+    padding:00;
+}
+form{
+    margin: 100px auto;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 0 4px gray;
+    padding: 14px;
+    background: white;
+    border-radius: 8px;
+    backdrop-filter: blur(8);
+    color: black;
+    margin-left: 300px;
+
+}
+form > div{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap:8px;
+}
+label{
+    color: rgb(245, 245, 245);
+    color: black;
+}
+input{
+    background: none;
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid olivedrab;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 40px;
+    
+    border-radius: 8px;
+}
